@@ -1,0 +1,6 @@
+/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles/ArMox.dir
+/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles/edit_cache.dir
+/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles/rebuild_cache.dir
+/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Arboles/Lib/CMakeFiles/ArbolB.dir
+/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Arboles/Lib/CMakeFiles/edit_cache.dir
+/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Arboles/Lib/CMakeFiles/rebuild_cache.dir
