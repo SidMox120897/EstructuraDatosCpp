@@ -29,7 +29,7 @@ int ArbolB<any>::Max(int A, int B){
 
 template <typename any>
 void ArbolB<any>::insertarABBO(any info){
-    insertar(this->root,info);
+    insertarABBO(this->root,info);
 }
 
 
@@ -43,13 +43,13 @@ void ArbolB<any>::insertarABBO(nodeT<any>*& R,any info){
             if(R->left==nullptr){
                 R->left = new nodeT<any>(info);
             }else{
-                insertar(R->left,info);
+                insertarABBO(R->left,info);
             }
         }else if(info>R->Info){
             if(R->right==nullptr){
                 R->right = new nodeT<any>(info);
             }else{
-                insertar(R->right,info);
+                insertarABBO(R->right,info);
             }
         }else{
             std::cout<<"El nodo: "<<R->Info<<"Ya existe"<<std::endl;

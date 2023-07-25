@@ -155,5 +155,8 @@ CMakeFiles/ArMox.dir/Arboles/main.cpp.o: \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/bits/stl_heap.h /usr/include/c++/11/bits/stl_queue.h \
  /usr/include/c++/11/bits/uses_allocator.h \
+ /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Arboles/Lib/ArbolB.cpp \
  /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Arboles/Lib/ArbolB.h \
- /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Arboles/Lib/ArbolB.cpp
+ /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Arboles/Lib/ArbolBMox.h \
+ /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Arboles/Lib/ArbolBMox.h \
+ /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Arboles/Lib/ArbolBMox.cpp

@@ -3,6 +3,8 @@
 #include "Lib/node.h"
 #include "Lib/ArbolB.h"
 #include "Lib/ArbolB.cpp"
+#include "Lib/ArbolBMox.h"
+#include "Lib/ArbolBMox.cpp"
 
 
 int main(int argc, char const *argv[])
@@ -39,13 +41,14 @@ int main(int argc, char const *argv[])
 
 
     ArbolB<int>* Arb=new ArbolB<int>();
-    Arb->insertarABB(-2);
-    Arb->insertarABB(-1);
-    Arb->insertarABB(3);
-    Arb->insertarABB(-4);
-    Arb->insertarABB(5);
-    Arb->insertarABB(-6);
-    Arb->insertarABB(1);
+    Arb->insertarABBO(-2);
+    Arb->insertarABBO(-1);
+    Arb->insertarABBO(3);
+    Arb->insertarABBO(-4);
+    Arb->insertarABBO(5);
+    Arb->insertarABBO(-6);
+    Arb->insertarABBO(1);
+
 
 
     Arb->inOrden();
@@ -58,7 +61,7 @@ int main(int argc, char const *argv[])
     std::cout<<"NroHojas: "<<Arb->nroHojas()<<std::endl;
     std::cout<<"NroRamas: "<<Arb->nroRamas()<<std::endl;
 
-
+    ArbolBMox<int>* ArbMox=new ArbolBMox<int>();
 
     return 0;
 }

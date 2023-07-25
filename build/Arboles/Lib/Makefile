@@ -154,6 +154,30 @@ ArbolB.cpp.s:
 	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Arboles/Lib/CMakeFiles/ArbolB.dir/build.make Arboles/Lib/CMakeFiles/ArbolB.dir/ArbolB.cpp.s
 .PHONY : ArbolB.cpp.s
 
+ArbolBMox.o: ArbolBMox.cpp.o
+.PHONY : ArbolBMox.o
+
+# target to build an object file
+ArbolBMox.cpp.o:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Arboles/Lib/CMakeFiles/ArbolB.dir/build.make Arboles/Lib/CMakeFiles/ArbolB.dir/ArbolBMox.cpp.o
+.PHONY : ArbolBMox.cpp.o
+
+ArbolBMox.i: ArbolBMox.cpp.i
+.PHONY : ArbolBMox.i
+
+# target to preprocess a source file
+ArbolBMox.cpp.i:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Arboles/Lib/CMakeFiles/ArbolB.dir/build.make Arboles/Lib/CMakeFiles/ArbolB.dir/ArbolBMox.cpp.i
+.PHONY : ArbolBMox.cpp.i
+
+ArbolBMox.s: ArbolBMox.cpp.s
+.PHONY : ArbolBMox.s
+
+# target to generate assembly for a file
+ArbolBMox.cpp.s:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Arboles/Lib/CMakeFiles/ArbolB.dir/build.make Arboles/Lib/CMakeFiles/ArbolB.dir/ArbolBMox.cpp.s
+.PHONY : ArbolBMox.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... ArbolB.o"
 	@echo "... ArbolB.i"
 	@echo "... ArbolB.s"
+	@echo "... ArbolBMox.o"
+	@echo "... ArbolBMox.i"
+	@echo "... ArbolBMox.s"
 .PHONY : help
 
 

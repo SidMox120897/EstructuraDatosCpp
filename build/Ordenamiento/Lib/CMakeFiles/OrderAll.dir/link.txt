@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libOrderAll.so -o libOrderAll.so CMakeFiles/OrderAll.dir/order.cpp.o CMakeFiles/OrderAll.dir/sort.cpp.o CMakeFiles/OrderAll.dir/bubblesort.cpp.o CMakeFiles/OrderAll.dir/bibubblesort.cpp.o 

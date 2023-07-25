@@ -1,7 +1,8 @@
-CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.o: \
- /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Arboles/Lib/ArbolB.cpp \
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bibubblesort.cpp.o: \
+ /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Ordenamiento/Lib/bibubblesort.cpp \
  /usr/include/stdc-predef.h \
- /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Arboles/Lib/ArbolB.h \
+ /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Ordenamiento/Lib/bibubblesort.h \
+ /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Ordenamiento/Lib/sort.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -145,13 +146,14 @@ CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Arboles/Lib/node.h \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/queue \
- /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
- /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_queue.h \
- /usr/include/c++/11/bits/uses_allocator.h
+ /usr/include/c++/11/bits/uses_allocator.h /usr/include/c++/11/ctime \
+ /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
+ /usr/include/c++/11/limits /usr/include/c++/11/bits/parse_numbers.h \
+ /home/sidmox/Escritorio/Area\ de\ Trabajo/Andre/Estructura\ de\ Datos/Ordenamiento/Lib/sort.cpp

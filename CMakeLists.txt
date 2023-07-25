@@ -30,14 +30,23 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build)
 set(ArbolDir ${CMAKE_SOURCE_DIR}/Arboles)
 set(ArLib ${ArbolDir}/Lib)
 
+
+#Ordenamiento
+set(OrdenamientoDir ${CMAKE_SOURCE_DIR}/Ordenamiento)
+set(OrderLib ${OrdenamientoDir}/Lib)
+
 add_subdirectory(${ArLib})
+add_subdirectory(${OrderLib})
 
 #Se Agrega una ejecucion al projecto Tutorial
 add_executable(ArMox
     ${ArbolDir}/main.cpp
-    ${ArLib}/ArbolB.cpp
-    ${ArLib}/ArbolB.h
-    ${ArLib}/node.h
+    )
+
+#Se Agrega una ejecucion al projecto Ordenamiento
+add_executable(OrderMox
+    ${OrdenamientoDir}/main.cpp
     )
 
 target_link_libraries(ArMox ArbolB)
+target_link_libraries(OrderMox OrderAll)

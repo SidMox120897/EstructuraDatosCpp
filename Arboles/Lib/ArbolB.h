@@ -41,5 +41,4 @@ private:
     int Altura(nodeT<any>* node);
 };
 
-#include "ArbolB.h"
 #endif

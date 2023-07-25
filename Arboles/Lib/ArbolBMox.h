@@ -17,13 +17,14 @@ public:
     ArbolBMox(any info);
     ~ArbolBMox();
     bool tieneUnHijo();
+    bool siositieneUnHijo();
     bool tieneDosHijos();
     bool noTieneHijos();
     bool esVacio();
-    int nroHijos();
-    int nroHojas();
-    int nroRamas();
-    int Altura();
+    // int nroHijos();
+    // int nroHojas();
+    // int nroRamas();
+    // int Altura();
     void insertar(any info);
     void ImprimirRaiz();
     void inOrden();
@@ -31,12 +32,6 @@ public:
     void postOrden();
     void porNiveles();
 
-private:
-    void insertar(any info);
-    void inOrden();
-    void preOrden();
-    void postOrden();
-    void porNiveles();
 };
 
 

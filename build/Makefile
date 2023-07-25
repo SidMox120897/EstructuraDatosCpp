@@ -130,6 +130,19 @@ ArMox/fast:
 .PHONY : ArMox/fast
 
 #=============================================================================
+# Target rules for targets named OrderMox
+
+# Build rule for target.
+OrderMox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OrderMox
+.PHONY : OrderMox
+
+# fast build rule for target.
+OrderMox/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OrderMox.dir/build.make CMakeFiles/OrderMox.dir/build
+.PHONY : OrderMox/fast
+
+#=============================================================================
 # Target rules for targets named ArbolB
 
 # Build rule for target.
@@ -142,29 +155,18 @@ ArbolB/fast:
 	$(MAKE) $(MAKESILENT) -f Arboles/Lib/CMakeFiles/ArbolB.dir/build.make Arboles/Lib/CMakeFiles/ArbolB.dir/build
 .PHONY : ArbolB/fast
 
-Arboles/Lib/ArbolB.o: Arboles/Lib/ArbolB.cpp.o
-.PHONY : Arboles/Lib/ArbolB.o
+#=============================================================================
+# Target rules for targets named OrderAll
 
-# target to build an object file
-Arboles/Lib/ArbolB.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArMox.dir/build.make CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.o
-.PHONY : Arboles/Lib/ArbolB.cpp.o
+# Build rule for target.
+OrderAll: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OrderAll
+.PHONY : OrderAll
 
-Arboles/Lib/ArbolB.i: Arboles/Lib/ArbolB.cpp.i
-.PHONY : Arboles/Lib/ArbolB.i
-
-# target to preprocess a source file
-Arboles/Lib/ArbolB.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArMox.dir/build.make CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.i
-.PHONY : Arboles/Lib/ArbolB.cpp.i
-
-Arboles/Lib/ArbolB.s: Arboles/Lib/ArbolB.cpp.s
-.PHONY : Arboles/Lib/ArbolB.s
-
-# target to generate assembly for a file
-Arboles/Lib/ArbolB.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArMox.dir/build.make CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.s
-.PHONY : Arboles/Lib/ArbolB.cpp.s
+# fast build rule for target.
+OrderAll/fast:
+	$(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build
+.PHONY : OrderAll/fast
 
 Arboles/main.o: Arboles/main.cpp.o
 .PHONY : Arboles/main.o
@@ -190,6 +192,30 @@ Arboles/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArMox.dir/build.make CMakeFiles/ArMox.dir/Arboles/main.cpp.s
 .PHONY : Arboles/main.cpp.s
 
+Ordenamiento/main.o: Ordenamiento/main.cpp.o
+.PHONY : Ordenamiento/main.o
+
+# target to build an object file
+Ordenamiento/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OrderMox.dir/build.make CMakeFiles/OrderMox.dir/Ordenamiento/main.cpp.o
+.PHONY : Ordenamiento/main.cpp.o
+
+Ordenamiento/main.i: Ordenamiento/main.cpp.i
+.PHONY : Ordenamiento/main.i
+
+# target to preprocess a source file
+Ordenamiento/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OrderMox.dir/build.make CMakeFiles/OrderMox.dir/Ordenamiento/main.cpp.i
+.PHONY : Ordenamiento/main.cpp.i
+
+Ordenamiento/main.s: Ordenamiento/main.cpp.s
+.PHONY : Ordenamiento/main.s
+
+# target to generate assembly for a file
+Ordenamiento/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OrderMox.dir/build.make CMakeFiles/OrderMox.dir/Ordenamiento/main.cpp.s
+.PHONY : Ordenamiento/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +226,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ArMox"
 	@echo "... ArbolB"
-	@echo "... Arboles/Lib/ArbolB.o"
-	@echo "... Arboles/Lib/ArbolB.i"
-	@echo "... Arboles/Lib/ArbolB.s"
+	@echo "... OrderAll"
+	@echo "... OrderMox"
 	@echo "... Arboles/main.o"
 	@echo "... Arboles/main.i"
 	@echo "... Arboles/main.s"
+	@echo "... Ordenamiento/main.o"
+	@echo "... Ordenamiento/main.i"
+	@echo "... Ordenamiento/main.s"
 .PHONY : help
 
 

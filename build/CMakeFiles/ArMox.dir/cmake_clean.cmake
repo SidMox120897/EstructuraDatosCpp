@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "ArMox"
   "ArMox.pdb"
-  "CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.o"
-  "CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.o.d"
   "CMakeFiles/ArMox.dir/Arboles/main.cpp.o"
   "CMakeFiles/ArMox.dir/Arboles/main.cpp.o.d"
 )

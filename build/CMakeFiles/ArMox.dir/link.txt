@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/ArMox.dir/Arboles/main.cpp.o CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.o -o ArMox  -Wl,-rpath,"/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Arboles/Lib" Arboles/Lib/libArbolB.so 
+/usr/bin/c++ CMakeFiles/ArMox.dir/Arboles/main.cpp.o -o ArMox  -Wl,-rpath,"/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Arboles/Lib" Arboles/Lib/libArbolB.so 

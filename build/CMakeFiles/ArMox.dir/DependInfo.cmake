@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Arboles/Lib/ArbolB.cpp" "CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.o" "gcc" "CMakeFiles/ArMox.dir/Arboles/Lib/ArbolB.cpp.o.d"
   "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Arboles/main.cpp" "CMakeFiles/ArMox.dir/Arboles/main.cpp.o" "gcc" "CMakeFiles/ArMox.dir/Arboles/main.cpp.o.d"
   )
 

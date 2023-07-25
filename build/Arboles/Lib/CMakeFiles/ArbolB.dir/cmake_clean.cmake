@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ArbolB.dir/ArbolB.cpp.o"
   "CMakeFiles/ArbolB.dir/ArbolB.cpp.o.d"
+  "CMakeFiles/ArbolB.dir/ArbolBMox.cpp.o"
+  "CMakeFiles/ArbolB.dir/ArbolBMox.cpp.o.d"
   "libArbolB.pdb"
   "libArbolB.so"
 )

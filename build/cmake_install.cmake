@@ -45,6 +45,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Arboles/Lib/cmake_install.cmake")
+  include("/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib/cmake_install.cmake")
 
 endif()
 

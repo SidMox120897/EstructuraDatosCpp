@@ -64,16 +64,21 @@ CMAKE_BINARY_DIR = "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de 
 
 # The main recursive "all" target.
 all: CMakeFiles/ArMox.dir/all
+all: CMakeFiles/OrderMox.dir/all
 all: Arboles/Lib/all
+all: Ordenamiento/Lib/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: Arboles/Lib/preinstall
+preinstall: Ordenamiento/Lib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/ArMox.dir/clean
+clean: CMakeFiles/OrderMox.dir/clean
 clean: Arboles/Lib/clean
+clean: Ordenamiento/Lib/clean
 .PHONY : clean
 
 #=============================================================================
@@ -92,13 +97,28 @@ Arboles/Lib/clean: Arboles/Lib/CMakeFiles/ArbolB.dir/clean
 .PHONY : Arboles/Lib/clean
 
 #=============================================================================
+# Directory level rules for directory Ordenamiento/Lib
+
+# Recursive "all" directory target.
+Ordenamiento/Lib/all: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/all
+.PHONY : Ordenamiento/Lib/all
+
+# Recursive "preinstall" directory target.
+Ordenamiento/Lib/preinstall:
+.PHONY : Ordenamiento/Lib/preinstall
+
+# Recursive "clean" directory target.
+Ordenamiento/Lib/clean: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/clean
+.PHONY : Ordenamiento/Lib/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ArMox.dir
 
 # All Build rule for target.
 CMakeFiles/ArMox.dir/all: Arboles/Lib/CMakeFiles/ArbolB.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArMox.dir/build.make CMakeFiles/ArMox.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArMox.dir/build.make CMakeFiles/ArMox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=1,2,3 "Built target ArMox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=1,2 "Built target ArMox"
 .PHONY : CMakeFiles/ArMox.dir/all
 
 # Build rule for subdir invocation for target.
@@ -118,18 +138,44 @@ CMakeFiles/ArMox.dir/clean:
 .PHONY : CMakeFiles/ArMox.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/OrderMox.dir
+
+# All Build rule for target.
+CMakeFiles/OrderMox.dir/all: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OrderMox.dir/build.make CMakeFiles/OrderMox.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OrderMox.dir/build.make CMakeFiles/OrderMox.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=11,12 "Built target OrderMox"
+.PHONY : CMakeFiles/OrderMox.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OrderMox.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OrderMox.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" 0
+.PHONY : CMakeFiles/OrderMox.dir/rule
+
+# Convenience name for target.
+OrderMox: CMakeFiles/OrderMox.dir/rule
+.PHONY : OrderMox
+
+# clean rule for target.
+CMakeFiles/OrderMox.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OrderMox.dir/build.make CMakeFiles/OrderMox.dir/clean
+.PHONY : CMakeFiles/OrderMox.dir/clean
+
+#=============================================================================
 # Target rules for target Arboles/Lib/CMakeFiles/ArbolB.dir
 
 # All Build rule for target.
 Arboles/Lib/CMakeFiles/ArbolB.dir/all:
 	$(MAKE) $(MAKESILENT) -f Arboles/Lib/CMakeFiles/ArbolB.dir/build.make Arboles/Lib/CMakeFiles/ArbolB.dir/depend
 	$(MAKE) $(MAKESILENT) -f Arboles/Lib/CMakeFiles/ArbolB.dir/build.make Arboles/Lib/CMakeFiles/ArbolB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=4,5 "Built target ArbolB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=3,4,5 "Built target ArbolB"
 .PHONY : Arboles/Lib/CMakeFiles/ArbolB.dir/all
 
 # Build rule for subdir invocation for target.
 Arboles/Lib/CMakeFiles/ArbolB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Arboles/Lib/CMakeFiles/ArbolB.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" 0
 .PHONY : Arboles/Lib/CMakeFiles/ArbolB.dir/rule
@@ -142,6 +188,32 @@ ArbolB: Arboles/Lib/CMakeFiles/ArbolB.dir/rule
 Arboles/Lib/CMakeFiles/ArbolB.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Arboles/Lib/CMakeFiles/ArbolB.dir/build.make Arboles/Lib/CMakeFiles/ArbolB.dir/clean
 .PHONY : Arboles/Lib/CMakeFiles/ArbolB.dir/clean
+
+#=============================================================================
+# Target rules for target Ordenamiento/Lib/CMakeFiles/OrderAll.dir
+
+# All Build rule for target.
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/all:
+	$(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/depend
+	$(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=6,7,8,9,10 "Built target OrderAll"
+.PHONY : Ordenamiento/Lib/CMakeFiles/OrderAll.dir/all
+
+# Build rule for subdir invocation for target.
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ordenamiento/Lib/CMakeFiles/OrderAll.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" 0
+.PHONY : Ordenamiento/Lib/CMakeFiles/OrderAll.dir/rule
+
+# Convenience name for target.
+OrderAll: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/rule
+.PHONY : OrderAll
+
+# clean rule for target.
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/clean
+.PHONY : Ordenamiento/Lib/CMakeFiles/OrderAll.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

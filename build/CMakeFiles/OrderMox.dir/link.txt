@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/OrderMox.dir/Ordenamiento/main.cpp.o -o OrderMox  -Wl,-rpath,"/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" Ordenamiento/Lib/libOrderAll.so 
