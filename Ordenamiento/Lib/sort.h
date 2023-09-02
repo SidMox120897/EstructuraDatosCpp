@@ -5,7 +5,6 @@
 #include <ctime>
 #include <chrono>
 
-
 #ifndef SORT_H
 #define SORT_H
 
@@ -16,8 +15,8 @@ template <typename any>
 class sort
 {
 public:
-    int NroIter;
-    int NroSwap;
+    long int NroIter;
+    long int NroSwap;
     long long time; /*micros*/
 
 public:

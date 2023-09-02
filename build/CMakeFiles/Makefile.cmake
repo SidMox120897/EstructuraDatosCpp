@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../Arboles/Lib/CMakeLists.txt"
   "../CMakeLists.txt"
+  "../Grafos/Lib/CMakeLists.txt"
   "../Ordenamiento/Lib/CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
@@ -43,12 +44,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Arboles/Lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Ordenamiento/Lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Grafos/Lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ArMox.dir/DependInfo.cmake"
   "CMakeFiles/OrderMox.dir/DependInfo.cmake"
+  "CMakeFiles/GrafosMox.dir/DependInfo.cmake"
   "Arboles/Lib/CMakeFiles/ArbolB.dir/DependInfo.cmake"
   "Ordenamiento/Lib/CMakeFiles/OrderAll.dir/DependInfo.cmake"
+  "Grafos/Lib/CMakeFiles/GRAFOS.dir/DependInfo.cmake"
   )

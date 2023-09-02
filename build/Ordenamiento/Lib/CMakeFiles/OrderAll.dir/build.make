@@ -125,12 +125,117 @@ Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bibubblesort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderAll.dir/bibubblesort.cpp.s"
 	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/bibubblesort.cpp" -o CMakeFiles/OrderAll.dir/bibubblesort.cpp.s
 
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/flags.make
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.o: ../Ordenamiento/Lib/bucketsort.cpp
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.o"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.o -MF CMakeFiles/OrderAll.dir/bucketsort.cpp.o.d -o CMakeFiles/OrderAll.dir/bucketsort.cpp.o -c "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/bucketsort.cpp"
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderAll.dir/bucketsort.cpp.i"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/bucketsort.cpp" > CMakeFiles/OrderAll.dir/bucketsort.cpp.i
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderAll.dir/bucketsort.cpp.s"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/bucketsort.cpp" -o CMakeFiles/OrderAll.dir/bucketsort.cpp.s
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/flags.make
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.o: ../Ordenamiento/Lib/insertionsort.cpp
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.o"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.o -MF CMakeFiles/OrderAll.dir/insertionsort.cpp.o.d -o CMakeFiles/OrderAll.dir/insertionsort.cpp.o -c "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/insertionsort.cpp"
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderAll.dir/insertionsort.cpp.i"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/insertionsort.cpp" > CMakeFiles/OrderAll.dir/insertionsort.cpp.i
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderAll.dir/insertionsort.cpp.s"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/insertionsort.cpp" -o CMakeFiles/OrderAll.dir/insertionsort.cpp.s
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/flags.make
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.o: ../Ordenamiento/Lib/mergesort.cpp
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.o"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.o -MF CMakeFiles/OrderAll.dir/mergesort.cpp.o.d -o CMakeFiles/OrderAll.dir/mergesort.cpp.o -c "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/mergesort.cpp"
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderAll.dir/mergesort.cpp.i"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/mergesort.cpp" > CMakeFiles/OrderAll.dir/mergesort.cpp.i
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderAll.dir/mergesort.cpp.s"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/mergesort.cpp" -o CMakeFiles/OrderAll.dir/mergesort.cpp.s
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/flags.make
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.o: ../Ordenamiento/Lib/quicksort.cpp
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.o"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.o -MF CMakeFiles/OrderAll.dir/quicksort.cpp.o.d -o CMakeFiles/OrderAll.dir/quicksort.cpp.o -c "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/quicksort.cpp"
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderAll.dir/quicksort.cpp.i"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/quicksort.cpp" > CMakeFiles/OrderAll.dir/quicksort.cpp.i
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderAll.dir/quicksort.cpp.s"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/quicksort.cpp" -o CMakeFiles/OrderAll.dir/quicksort.cpp.s
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/flags.make
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.o: ../Ordenamiento/Lib/radixsort.cpp
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.o"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.o -MF CMakeFiles/OrderAll.dir/radixsort.cpp.o.d -o CMakeFiles/OrderAll.dir/radixsort.cpp.o -c "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/radixsort.cpp"
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderAll.dir/radixsort.cpp.i"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/radixsort.cpp" > CMakeFiles/OrderAll.dir/radixsort.cpp.i
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderAll.dir/radixsort.cpp.s"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/radixsort.cpp" -o CMakeFiles/OrderAll.dir/radixsort.cpp.s
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/flags.make
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.o: ../Ordenamiento/Lib/selectionsort.cpp
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.o"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.o -MF CMakeFiles/OrderAll.dir/selectionsort.cpp.o.d -o CMakeFiles/OrderAll.dir/selectionsort.cpp.o -c "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/selectionsort.cpp"
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderAll.dir/selectionsort.cpp.i"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/selectionsort.cpp" > CMakeFiles/OrderAll.dir/selectionsort.cpp.i
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderAll.dir/selectionsort.cpp.s"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/selectionsort.cpp" -o CMakeFiles/OrderAll.dir/selectionsort.cpp.s
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/flags.make
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.o: ../Ordenamiento/Lib/shellsort.cpp
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.o: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.o"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.o -MF CMakeFiles/OrderAll.dir/shellsort.cpp.o.d -o CMakeFiles/OrderAll.dir/shellsort.cpp.o -c "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/shellsort.cpp"
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderAll.dir/shellsort.cpp.i"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/shellsort.cpp" > CMakeFiles/OrderAll.dir/shellsort.cpp.i
+
+Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderAll.dir/shellsort.cpp.s"
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/Ordenamiento/Lib/shellsort.cpp" -o CMakeFiles/OrderAll.dir/shellsort.cpp.s
+
 # Object files for target OrderAll
 OrderAll_OBJECTS = \
 "CMakeFiles/OrderAll.dir/order.cpp.o" \
 "CMakeFiles/OrderAll.dir/sort.cpp.o" \
 "CMakeFiles/OrderAll.dir/bubblesort.cpp.o" \
-"CMakeFiles/OrderAll.dir/bibubblesort.cpp.o"
+"CMakeFiles/OrderAll.dir/bibubblesort.cpp.o" \
+"CMakeFiles/OrderAll.dir/bucketsort.cpp.o" \
+"CMakeFiles/OrderAll.dir/insertionsort.cpp.o" \
+"CMakeFiles/OrderAll.dir/mergesort.cpp.o" \
+"CMakeFiles/OrderAll.dir/quicksort.cpp.o" \
+"CMakeFiles/OrderAll.dir/radixsort.cpp.o" \
+"CMakeFiles/OrderAll.dir/selectionsort.cpp.o" \
+"CMakeFiles/OrderAll.dir/shellsort.cpp.o"
 
 # External object files for target OrderAll
 OrderAll_EXTERNAL_OBJECTS =
@@ -139,9 +244,16 @@ Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/order.
 Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/sort.cpp.o
 Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bubblesort.cpp.o
 Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bibubblesort.cpp.o
+Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.o
+Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.o
+Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.o
+Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.o
+Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.o
+Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.o
+Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.o
 Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make
 Ordenamiento/Lib/libOrderAll.so: Ordenamiento/Lib/CMakeFiles/OrderAll.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libOrderAll.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libOrderAll.so"
 	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Ordenamiento/Lib" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OrderAll.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

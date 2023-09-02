@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/GrafosMox.dir/Grafos/main.cpp.o -o GrafosMox  -Wl,-rpath,"/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build/Grafos/Lib" Grafos/Lib/libGRAFOS.so 

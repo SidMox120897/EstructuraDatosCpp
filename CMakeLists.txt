@@ -35,8 +35,16 @@ set(ArLib ${ArbolDir}/Lib)
 set(OrdenamientoDir ${CMAKE_SOURCE_DIR}/Ordenamiento)
 set(OrderLib ${OrdenamientoDir}/Lib)
 
+
+#Grafos
+set(GrafosDir ${CMAKE_SOURCE_DIR}/Grafos)
+set(GrafosLib ${GrafosDir}/Lib)
+
+
 add_subdirectory(${ArLib})
 add_subdirectory(${OrderLib})
+add_subdirectory(${GrafosLib})
+
 
 #Se Agrega una ejecucion al projecto Tutorial
 add_executable(ArMox
@@ -48,5 +56,12 @@ add_executable(OrderMox
     ${OrdenamientoDir}/main.cpp
     )
 
+#Se Agrega una ejecucion al projecto Ordenamiento
+add_executable(GrafosMox
+    ${GrafosDir}/main.cpp
+    )
+
+
 target_link_libraries(ArMox ArbolB)
 target_link_libraries(OrderMox OrderAll)
+target_link_libraries(GrafosMox GRAFOS)

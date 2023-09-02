@@ -178,6 +178,78 @@ bubblesort.cpp.s:
 	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bubblesort.cpp.s
 .PHONY : bubblesort.cpp.s
 
+bucketsort.o: bucketsort.cpp.o
+.PHONY : bucketsort.o
+
+# target to build an object file
+bucketsort.cpp.o:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.o
+.PHONY : bucketsort.cpp.o
+
+bucketsort.i: bucketsort.cpp.i
+.PHONY : bucketsort.i
+
+# target to preprocess a source file
+bucketsort.cpp.i:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.i
+.PHONY : bucketsort.cpp.i
+
+bucketsort.s: bucketsort.cpp.s
+.PHONY : bucketsort.s
+
+# target to generate assembly for a file
+bucketsort.cpp.s:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/bucketsort.cpp.s
+.PHONY : bucketsort.cpp.s
+
+insertionsort.o: insertionsort.cpp.o
+.PHONY : insertionsort.o
+
+# target to build an object file
+insertionsort.cpp.o:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.o
+.PHONY : insertionsort.cpp.o
+
+insertionsort.i: insertionsort.cpp.i
+.PHONY : insertionsort.i
+
+# target to preprocess a source file
+insertionsort.cpp.i:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.i
+.PHONY : insertionsort.cpp.i
+
+insertionsort.s: insertionsort.cpp.s
+.PHONY : insertionsort.s
+
+# target to generate assembly for a file
+insertionsort.cpp.s:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/insertionsort.cpp.s
+.PHONY : insertionsort.cpp.s
+
+mergesort.o: mergesort.cpp.o
+.PHONY : mergesort.o
+
+# target to build an object file
+mergesort.cpp.o:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.o
+.PHONY : mergesort.cpp.o
+
+mergesort.i: mergesort.cpp.i
+.PHONY : mergesort.i
+
+# target to preprocess a source file
+mergesort.cpp.i:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.i
+.PHONY : mergesort.cpp.i
+
+mergesort.s: mergesort.cpp.s
+.PHONY : mergesort.s
+
+# target to generate assembly for a file
+mergesort.cpp.s:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/mergesort.cpp.s
+.PHONY : mergesort.cpp.s
+
 order.o: order.cpp.o
 .PHONY : order.o
 
@@ -201,6 +273,102 @@ order.s: order.cpp.s
 order.cpp.s:
 	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/order.cpp.s
 .PHONY : order.cpp.s
+
+quicksort.o: quicksort.cpp.o
+.PHONY : quicksort.o
+
+# target to build an object file
+quicksort.cpp.o:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.o
+.PHONY : quicksort.cpp.o
+
+quicksort.i: quicksort.cpp.i
+.PHONY : quicksort.i
+
+# target to preprocess a source file
+quicksort.cpp.i:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.i
+.PHONY : quicksort.cpp.i
+
+quicksort.s: quicksort.cpp.s
+.PHONY : quicksort.s
+
+# target to generate assembly for a file
+quicksort.cpp.s:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/quicksort.cpp.s
+.PHONY : quicksort.cpp.s
+
+radixsort.o: radixsort.cpp.o
+.PHONY : radixsort.o
+
+# target to build an object file
+radixsort.cpp.o:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.o
+.PHONY : radixsort.cpp.o
+
+radixsort.i: radixsort.cpp.i
+.PHONY : radixsort.i
+
+# target to preprocess a source file
+radixsort.cpp.i:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.i
+.PHONY : radixsort.cpp.i
+
+radixsort.s: radixsort.cpp.s
+.PHONY : radixsort.s
+
+# target to generate assembly for a file
+radixsort.cpp.s:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/radixsort.cpp.s
+.PHONY : radixsort.cpp.s
+
+selectionsort.o: selectionsort.cpp.o
+.PHONY : selectionsort.o
+
+# target to build an object file
+selectionsort.cpp.o:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.o
+.PHONY : selectionsort.cpp.o
+
+selectionsort.i: selectionsort.cpp.i
+.PHONY : selectionsort.i
+
+# target to preprocess a source file
+selectionsort.cpp.i:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.i
+.PHONY : selectionsort.cpp.i
+
+selectionsort.s: selectionsort.cpp.s
+.PHONY : selectionsort.s
+
+# target to generate assembly for a file
+selectionsort.cpp.s:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/selectionsort.cpp.s
+.PHONY : selectionsort.cpp.s
+
+shellsort.o: shellsort.cpp.o
+.PHONY : shellsort.o
+
+# target to build an object file
+shellsort.cpp.o:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.o
+.PHONY : shellsort.cpp.o
+
+shellsort.i: shellsort.cpp.i
+.PHONY : shellsort.i
+
+# target to preprocess a source file
+shellsort.cpp.i:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.i
+.PHONY : shellsort.cpp.i
+
+shellsort.s: shellsort.cpp.s
+.PHONY : shellsort.s
+
+# target to generate assembly for a file
+shellsort.cpp.s:
+	cd "/home/sidmox/Escritorio/Area de Trabajo/Andre/Estructura de Datos/build" && $(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/shellsort.cpp.s
+.PHONY : shellsort.cpp.s
 
 sort.o: sort.cpp.o
 .PHONY : sort.o
@@ -241,9 +409,30 @@ help:
 	@echo "... bubblesort.o"
 	@echo "... bubblesort.i"
 	@echo "... bubblesort.s"
+	@echo "... bucketsort.o"
+	@echo "... bucketsort.i"
+	@echo "... bucketsort.s"
+	@echo "... insertionsort.o"
+	@echo "... insertionsort.i"
+	@echo "... insertionsort.s"
+	@echo "... mergesort.o"
+	@echo "... mergesort.i"
+	@echo "... mergesort.s"
 	@echo "... order.o"
 	@echo "... order.i"
 	@echo "... order.s"
+	@echo "... quicksort.o"
+	@echo "... quicksort.i"
+	@echo "... quicksort.s"
+	@echo "... radixsort.o"
+	@echo "... radixsort.i"
+	@echo "... radixsort.s"
+	@echo "... selectionsort.o"
+	@echo "... selectionsort.i"
+	@echo "... selectionsort.s"
+	@echo "... shellsort.o"
+	@echo "... shellsort.i"
+	@echo "... shellsort.s"
 	@echo "... sort.o"
 	@echo "... sort.i"
 	@echo "... sort.s"

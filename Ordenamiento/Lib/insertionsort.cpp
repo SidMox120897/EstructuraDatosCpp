@@ -17,7 +17,7 @@ template <typename any>
 void insertionsort<any>::sortVector(std::vector<any>& Arr) {
     int n = Arr.size();
     for (int i = 1; i < n; i++) {
-        T key = Arr[i];
+        any key = Arr[i];
         int j = i - 1;
 
         while (j >= 0 && Arr[j] > key) {

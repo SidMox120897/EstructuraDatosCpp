@@ -143,6 +143,19 @@ OrderMox/fast:
 .PHONY : OrderMox/fast
 
 #=============================================================================
+# Target rules for targets named GrafosMox
+
+# Build rule for target.
+GrafosMox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GrafosMox
+.PHONY : GrafosMox
+
+# fast build rule for target.
+GrafosMox/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GrafosMox.dir/build.make CMakeFiles/GrafosMox.dir/build
+.PHONY : GrafosMox/fast
+
+#=============================================================================
 # Target rules for targets named ArbolB
 
 # Build rule for target.
@@ -168,6 +181,19 @@ OrderAll/fast:
 	$(MAKE) $(MAKESILENT) -f Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build.make Ordenamiento/Lib/CMakeFiles/OrderAll.dir/build
 .PHONY : OrderAll/fast
 
+#=============================================================================
+# Target rules for targets named GRAFOS
+
+# Build rule for target.
+GRAFOS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GRAFOS
+.PHONY : GRAFOS
+
+# fast build rule for target.
+GRAFOS/fast:
+	$(MAKE) $(MAKESILENT) -f Grafos/Lib/CMakeFiles/GRAFOS.dir/build.make Grafos/Lib/CMakeFiles/GRAFOS.dir/build
+.PHONY : GRAFOS/fast
+
 Arboles/main.o: Arboles/main.cpp.o
 .PHONY : Arboles/main.o
 
@@ -191,6 +217,30 @@ Arboles/main.s: Arboles/main.cpp.s
 Arboles/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArMox.dir/build.make CMakeFiles/ArMox.dir/Arboles/main.cpp.s
 .PHONY : Arboles/main.cpp.s
+
+Grafos/main.o: Grafos/main.cpp.o
+.PHONY : Grafos/main.o
+
+# target to build an object file
+Grafos/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GrafosMox.dir/build.make CMakeFiles/GrafosMox.dir/Grafos/main.cpp.o
+.PHONY : Grafos/main.cpp.o
+
+Grafos/main.i: Grafos/main.cpp.i
+.PHONY : Grafos/main.i
+
+# target to preprocess a source file
+Grafos/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GrafosMox.dir/build.make CMakeFiles/GrafosMox.dir/Grafos/main.cpp.i
+.PHONY : Grafos/main.cpp.i
+
+Grafos/main.s: Grafos/main.cpp.s
+.PHONY : Grafos/main.s
+
+# target to generate assembly for a file
+Grafos/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GrafosMox.dir/build.make CMakeFiles/GrafosMox.dir/Grafos/main.cpp.s
+.PHONY : Grafos/main.cpp.s
 
 Ordenamiento/main.o: Ordenamiento/main.cpp.o
 .PHONY : Ordenamiento/main.o
@@ -226,11 +276,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ArMox"
 	@echo "... ArbolB"
+	@echo "... GRAFOS"
+	@echo "... GrafosMox"
 	@echo "... OrderAll"
 	@echo "... OrderMox"
 	@echo "... Arboles/main.o"
 	@echo "... Arboles/main.i"
 	@echo "... Arboles/main.s"
+	@echo "... Grafos/main.o"
+	@echo "... Grafos/main.i"
+	@echo "... Grafos/main.s"
 	@echo "... Ordenamiento/main.o"
 	@echo "... Ordenamiento/main.i"
 	@echo "... Ordenamiento/main.s"

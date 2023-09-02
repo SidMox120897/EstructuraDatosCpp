@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libGRAFOS.so -o libGRAFOS.so CMakeFiles/GRAFOS.dir/node.cpp.o CMakeFiles/GRAFOS.dir/edge.cpp.o CMakeFiles/GRAFOS.dir/Graph.cpp.o CMakeFiles/GRAFOS.dir/DFS.cpp.o 
